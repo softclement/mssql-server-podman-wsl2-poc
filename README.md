@@ -1,7 +1,6 @@
 # MS SQL Server PoC on WSL2 / Podman
 ### Building basic MS-SQL familiarity as groundwork for SQL Server → PostgreSQL migration work
 
-**Author:** Mariyan Clement Swaminathan ([@softclement](https://github.com/softclement)) — Architect, Oracle/PostgreSQL SME.
 This is a hands-on, fully reproducible PoC: every command below is copy-paste runnable from a clean WSL2/Podman setup, using either the CLI (`sqlcmd`) or VS Code with the MSSQL extension. Follow it top to bottom to replicate the same environment for your own experimentation.
 
 ---
@@ -447,3 +446,4 @@ Single-command version for a full teardown:
 podman stop sqlserver-express && podman rm sqlserver-express && podman rmi mcr.microsoft.com/mssql/server:2022-latest && rm -rf ~/mssql-poc
 ```
 
+**Author:** Mariyan Clement  ([@softclement](https://github.com/softclement)) 
