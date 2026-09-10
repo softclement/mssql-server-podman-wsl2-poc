@@ -446,4 +446,4 @@ Single-command version for a full teardown:
 podman stop sqlserver-express && podman rm sqlserver-express && podman rmi mcr.microsoft.com/mssql/server:2022-latest && rm -rf ~/mssql-poc
 ```
 
-**Author:** Mariyan Clement  ([@softclement](https://github.com/softclement)) 
+**Author:** Mariyan Clement  ([@softclement](https://github.com/softclement)) https://www.linkedin.com/in/mariyanclement/
